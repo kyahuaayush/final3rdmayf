@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Vector's Masterclass By AIR 15 Shobhit bhaiya</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,900|Open+Sans:400,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <title>Bootstrap Sign up Form with Icons</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Chivo:400,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/13054dc654.js" crossorigin="anonymous"></script>
+
+</head>
+<style media="screen">
+.heading_div {
+  background: #e8505b;
+}
+
+.signup-div {
+  background: #1a2849;
+}
+
+.headingtop {
+  background: #45294c
+}
+
+.branding {
+  color: #000;
+  font-weight: 400;
+  font-size: 30px;
+  font-family: Chivo;
+  margin: 0px;
+  padding-left: 10px;
+  text-align: center;
+  background-color: ;
+}
+
+.forms {
+  position: relative;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: Ubuntu;
+}
+
+.form-text {
+  width: 50%;
+  display: block;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+/* heading */
+.Vectors {
+  color: #ffbe9d;
+  font-weight: 900;
+}
+
+.name {
+  color: #fff;
+}
+
+.big-heading {
+  font-family: 'ubuntu' !important;
+  margin: .5rem;
+  color: #000000;
+  font-size: 5rem !important;
+  font-weight: 600;
+  padding: 100px 0 0 50px;
+}
+
+.Image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  width: 200px;
+}
+
+/* Form CSS HERE */
+.signup-content {
+  text-align: center;
+  color: #ffffff;
+}
+
+.theregform {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  width: 80%;
+}
+
+.form-control, .form-control:focus, .input-group-addon {
+  border-color: #e1e1e1;
+}
+
+.form-control, .btn {
+  border-radius: 3px;
+}
+
+.signup-form {
+  width: 80%;
+  margin: 0%;
+  padding: 30px 0;
+}
+
+.signup-form form {
+  color: #999;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  background: #fff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+
+.signup-form h2 {
+  color: #333;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.signup-form hr {
+  margin: 0 -30px 20px;
+}
+
+.signup-form .form-group {
+  margin-bottom: 20px;
+}
+
+.signup-form label {
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.signup-form .form-control {
+  min-height: 38px;
+  box-shadow: none !important;
+}
+
+.signup-form .input-group-addon {
+  max-width: 42px;
+  text-align: center;
+}
+
+.signup-form input[type="checkbox"] {
+  margin-top: 2px;
+}
+
+.signup-form .btn {
+  font-size: 16px;
+  font-weight: bold;
+  background: #1a2849;
+  border: none;
+  min-width: 140px;
+}
+
+.signup-form .btn:hover, .signup-form .btn:focus {
+  background: #1a2849;
+  outline: none;
+}
+
+.signup-form a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.signup-form a:hover {
+  text-decoration: none;
+}
+
+.signup-form form a {
+  color: #1a2849;
+  text-decoration: none;
+}
+
+.signup-form form a:hover {
+  text-decoration: underline;
+}
+
+.signup-form .fa {
+  font-size: 21px;
+}
+
+.signup-form .fa-paper-plane {
+  font-size: 18px;
+}
+
+.signup-form .fa-check {
+  color: #fff;
+  left: 17px;
+  top: 18px;
+  font-size: 7px;
+  position: absolute;
+}
+
+.signup_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+/* Countdown */
+.countdown_text {
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #e8505b;
+}
+
+#clockdiv {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+#clockdiv>div {
+  padding: 10px;
+  border-radius: 3px;
+  background: #e8505b;
+  display: inline-block;
+}
+
+#clockdiv div>span {
+  padding: 15px;
+  border-radius: 3px;
+  background: #A2383F;
+  display: inline-block;
+}
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.countdown_div {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #1a2849;
+
+  margin-right: -15px
+}
+@media (min-width:1024px){
+  .Image{
+    margin-left: 50px
+  }
+}
+@media (max-width:1024px) {
+  .big-heading {
+    font-family: 'ubuntu' !important;
+    margin: .5rem;
+    color: #000000;
+    font-size: 5rem !important;
+    font-weight: 600;
+    padding: 50px 0;
+    text-align: center;
+}
+}
+</style>
+
+<body>
+  <div class="branding">
+    SWASTIK CLASSES
+  </div>
+  <div class="row heading_div">
+    <div class="col-lg-6 col-md-12" style="padding-left: 8%; padding-right: auto;">
+      <h1 class="big-heading"><span class="Vectors">Vectors<br></span> Masterclass By<br> <span class="name">Shobhit Gupta<br>(AIR 15)</span></h1>
+    </div>
+    <div class="col-lg-6 col-md-12">
+      <img class="Image" src="https://i.ibb.co/Dz84vrv/shobhit-bhaiya-BW1.png" alt="shobhit-bhaiya-BW1" border="0">
+    </div>
+  </div>
+  <div class="countdown_div">
+    <h1 class="countdown_text">Hurry Up!<br> Only a Few seats left</h1>
+    <div id="clockdiv">
+      <div>
+        <span class="days"></span>
+        <div class="smalltext">Days</div>
+      </div>
+      <div>
+        <span class="hours"></span>
+        <div class="smalltext">Hours</div>
+      </div>
+      <div>
+        <span class="minutes"></span>
+        <div class="smalltext">Minutes</div>
+      </div>
+      <div>
+        <span class="seconds"></span>
+        <div class="smalltext">Seconds</div>
+      </div>
+    </div>
+  </div>
+  <div class="row signup-div">
+
+    <div class="col-lg-6 col-md-12 mx-auto d-block">
+      <img class="signup_image" src="https://i.ibb.co/YXFbfxN/signup.png" alt="signup" border="0">
+    </div>
+    <div class="signup-form signup_form col-lg-6">
+
+      <div id="myForm" class="theregform">
+        <form action="/examples/actions/confirmation.php" method="post">
+          <h2>REGISTER NOW</h2>
+          <p>Please fill in this form to register for the MASTERCLASS!</p>
+          <hr>
+          <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-user"></i></span>
+              <input type="text" class="form-control" name="username" placeholder="Name" required="required">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-paper-plane"></i></span>
+              <input type="email" class="form-control" name="email" placeholder="Email Address" required="required">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+              <input type="text" class="form-control" name="password" placeholder="Phone Number" required="required">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
+              <input type="class" class="form-control" name="class" placeholder="Your Class" required="required">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="checkbox-inline"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+          </div>
+          <div class="form-group">
+            <a href="verify form.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Verify</a>
+
+          </div>
+      </div>
+
+
+
+      </form </div> <script type="text/javascript">
+
+      function getTimeRemaining(endtime) {
+      var t = Date.parse("May 3, 2020 10:00:00") - Date.parse(new Date());
+      var seconds = Math.floor((t / 1000) % 60);
+      var minutes = Math.floor((t / 1000 / 60) % 60);
+      var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+      var days = Math.floor(t / (1000 * 60 * 60 * 24));
+      return {
+      'total': t,
+      'days': days,
+      'hours': hours,
+      'minutes': minutes,
+      'seconds': seconds
+      };
+      }
+
+      function initializeClock(id, endtime) {
+      var clock = document.getElementById(id);
+      var daysSpan = clock.querySelector('.days');
+      var hoursSpan = clock.querySelector('.hours');
+      var minutesSpan = clock.querySelector('.minutes');
+      var secondsSpan = clock.querySelector('.seconds');
+
+      function updateClock() {
+      var t = getTimeRemaining(endtime);
+
+      daysSpan.innerHTML = t.days;
+      hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+      minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+      secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+      if (t.total <= 0) { clearInterval(timeinterval); } } updateClock(); var timeinterval=setInterval(updateClock, 1000); } var deadline=new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000); initializeClock('clockdiv', deadline); </script>
+        </body> </html>
